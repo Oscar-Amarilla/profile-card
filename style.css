@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(185, 75%, 39%);
+}
+.container{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.box_1{
+  position: relative;
+  width: 420px;
+  height: 150px;
+  background-image: url(./images/bg-pattern-card.svg);
+  background-size: cover;
+  top: 65px;
+  border-radius: 20px 20px 0px 0px;
+}
+.box_2{
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-image: url(./images/image-victor.jpg);
+  background-size: cover;
+  border-radius: 75px;
+  border: solid 5px white;
+  z-index: 1;
+}
+.box_3{
+  position: relative;
+  width: 420px;
+  height: 180px;
+  background-color: white;
+  bottom: 65px;
+  /*Text codes*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.box_4{
+  position: relative;
+  width: 420px;
+  height: 108px;
+  background-color: white;
+  border-top: solid 1px hsla(42, 1%, 88%, 1);
+  bottom: 65px;
+  border-radius: 0px 0px 20px 20px;
+  /*Text codes*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle_1{
+  bottom: -600px;
+  right: -120px;
+  position: absolute;
+  height: 120%;
+  z-index: -1;
+}
+.circle_2{
+  top: -400px;
+  left: -110px;
+  position: absolute;
+  height: 110%;
+  z-index: -1;
+}
+.stats{
+  list-style: none;
+  display: flex;
+}
+.it{
+  margin: 0px 60px 0px 60px;
+}
+.name{
+  margin-top: 60px;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(229, 23%, 23%);
+}
+.age{
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 25px;
+  color: hsl(227, 10%, 46%);
+}
+.geo{
+  margin-top: 18px;
+  font-family: "Kumbh Sans";
+  font-weight: 300;
+  font-size: 20px;
+  color: hsl(227, 10%, 46%);
+}
+.num{
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  font-size: 22px;
+  color: hsl(229, 23%, 23%);
+}
+.det{
+  margin-top: 6px;
+  font-family: "Kumbh Sans";
+  font-weight: 300;
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1px;
+}
+li{
+  text-align: center;
+}
+@media(max-width: 1024px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .circle_1{
+    bottom: -550px;
+    right: -500px;
+    position: absolute;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.55;
+  }
+  .circle_2{
+    top: -450px;
+    left: -430px;
+    position: absolute;
+    height: 110%;
+    z-index: -1;
+    opacity: 0.55;
+  }
+}
