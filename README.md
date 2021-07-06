@@ -4,10 +4,10 @@
 
 Users should be able to see responsible profile card.
 
-### Desktop desing
+### Desktop design
 ![Desktop desing](./design/desktop-design.jpg)
 
-### Movile desing
+### Movile design
 ![Movile desing](./design/mobile-design.jpg)
 
 ## Process
